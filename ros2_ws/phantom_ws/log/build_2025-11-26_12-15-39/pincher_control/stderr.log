@@ -1,0 +1,5 @@
+  File "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control/control_servo.py", line 20
+            PROTOCOL_VERSION = 2.0
+    ^
+SyntaxError: invalid non-printable character U+2006
+

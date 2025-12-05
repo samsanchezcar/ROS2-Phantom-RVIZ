@@ -1,0 +1,17 @@
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/launch/fake.launch.py
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/launch/gz.launch.py
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/environment/ament_prefix_path.sh
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/environment/ament_prefix_path.dsv
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/environment/path.sh
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/environment/path.dsv
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/local_setup.bash
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/local_setup.sh
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/local_setup.zsh
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/local_setup.dsv
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/package.dsv
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/ament_index/resource_index/packages/phantomx_pincher
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/cmake/phantomx_pincherConfig.cmake
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/cmake/phantomx_pincherConfig-version.cmake
+/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/package.xml
