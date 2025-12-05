@@ -1,3 +1,7 @@
 [console_scripts]
+L5_P1 = pincher_control.LAB5_P1:main
 control_servo = pincher_control.control_servo:main
+terminal_control = pincher_control.terminal_control:main
+terminal_sub = pincher_control.terminal_subscriber:main
+toolbox = pincher_control.toolbox:main
 

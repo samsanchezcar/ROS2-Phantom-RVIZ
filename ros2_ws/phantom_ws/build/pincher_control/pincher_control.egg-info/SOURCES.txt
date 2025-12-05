@@ -8,8 +8,12 @@ setup.py
 ../../build/pincher_control/pincher_control.egg-info/requires.txt
 ../../build/pincher_control/pincher_control.egg-info/top_level.txt
 ../../build/pincher_control/pincher_control.egg-info/zip-safe
+pincher_control/LAB5_P1.py
 pincher_control/__init__.py
 pincher_control/control_servo.py
+pincher_control/terminal_control.py
+pincher_control/terminal_subscriber.py
+pincher_control/toolbox.py
 resource/pincher_control
 test/test_copyright.py
 test/test_flake8.py
