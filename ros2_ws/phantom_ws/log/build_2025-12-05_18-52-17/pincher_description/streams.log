@@ -1,0 +1,18 @@
+[4.094s] Invoking command in '/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/pincher_description': PYTHONPATH=/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/pincher_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/pincher_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_description build --build-base /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/pincher_description/build install --record /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/pincher_description/install.log --single-version-externally-managed install_data
+[5.816s] running egg_info
+[5.821s] writing ../../build/pincher_description/pincher_description.egg-info/PKG-INFO
+[5.826s] writing dependency_links to ../../build/pincher_description/pincher_description.egg-info/dependency_links.txt
+[5.828s] writing entry points to ../../build/pincher_description/pincher_description.egg-info/entry_points.txt
+[5.830s] writing requirements to ../../build/pincher_description/pincher_description.egg-info/requires.txt
+[5.830s] writing top-level names to ../../build/pincher_description/pincher_description.egg-info/top_level.txt
+[5.839s] reading manifest file '../../build/pincher_description/pincher_description.egg-info/SOURCES.txt'
+[5.846s] writing manifest file '../../build/pincher_description/pincher_description.egg-info/SOURCES.txt'
+[5.849s] running build
+[5.849s] running install
+[5.854s] running install_data
+[5.858s] running install_egg_info
+[5.869s] removing '/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/pincher_description/lib/python3.10/site-packages/pincher_description-0.0.0-py3.10.egg-info' (and everything under it)
+[5.870s] Copying ../../build/pincher_description/pincher_description.egg-info to /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/pincher_description/lib/python3.10/site-packages/pincher_description-0.0.0-py3.10.egg-info
+[5.877s] running install_scripts
+[5.971s] writing list of installed files to '/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/pincher_description/install.log'
+[6.049s] Invoked command in '/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/pincher_description' returned '0': PYTHONPATH=/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/pincher_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/pincher_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_description build --build-base /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/pincher_description/build install --record /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/pincher_description/install.log --single-version-externally-managed install_data
