@@ -1,0 +1,79 @@
+[0.061s] Invoking command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp': AMENT_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp -DCMAKE_INSTALL_PREFIX=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp
+[0.377s] -- The C compiler identification is GNU 11.4.0
+[0.676s] -- The CXX compiler identification is GNU 11.4.0
+[0.711s] -- Detecting C compiler ABI info
+[1.125s] -- Detecting C compiler ABI info - done
+[1.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.139s] -- Detecting C compile features
+[1.139s] -- Detecting C compile features - done
+[1.147s] -- Detecting CXX compiler ABI info
+[1.617s] -- Detecting CXX compiler ABI info - done
+[1.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.638s] -- Detecting CXX compile features
+[1.640s] -- Detecting CXX compile features - done
+[1.653s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.167s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.486s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.638s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.665s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.701s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.748s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.057s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.069s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.679s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.790s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.981s] -- Looking for pthread.h
+[4.420s] -- Looking for pthread.h - found
+[4.427s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.878s] -- Found Threads: TRUE  
+[5.044s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[5.152s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[5.635s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.809s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.861s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.943s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.447s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[6.533s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.536s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.946s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[7.012s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[7.067s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[7.137s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[7.166s] -- Found phantomx_pincher_interfaces: 0.0.0 (/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/share/phantomx_pincher_interfaces/cmake)
+[7.379s] -- Configuring done
+[7.695s] -- Generating done
+[7.724s] -- Build files have been written to: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp
+[7.786s] Invoked command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp' returned '0': AMENT_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp -DCMAKE_INSTALL_PREFIX=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp
+[7.794s] Invoking command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp': AMENT_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp -- -j2 -l2
+[8.111s] [ 25%] [32mBuilding CXX object CMakeFiles/test_moveit.dir/src/test_moveit.cpp.o[0m
+[8.120s] [ 50%] [32mBuilding CXX object CMakeFiles/commander.dir/src/commander_template.cpp.o[0m
+[32.989s] [ 75%] [32m[1mLinking CXX executable test_moveit[0m
+[34.363s] [ 75%] Built target test_moveit
+[55.596s] [100%] [32m[1mLinking CXX executable commander[0m
+[59.544s] [100%] Built target commander
+[59.604s] Invoked command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp' returned '0': AMENT_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp -- -j2 -l2
+[59.605s] Invoking command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp': AMENT_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp
+[59.642s] -- Install configuration: ""
+[59.642s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/lib/phantomx_pincher_commander_cpp/test_moveit
+[59.651s] -- Set runtime path of "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/lib/phantomx_pincher_commander_cpp/test_moveit" to ""
+[59.651s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/lib/phantomx_pincher_commander_cpp/commander
+[59.713s] -- Set runtime path of "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/lib/phantomx_pincher_commander_cpp/commander" to ""
+[59.715s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher_commander_cpp
+[59.715s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher_commander_cpp
+[59.719s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/environment/ament_prefix_path.sh
+[59.724s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/environment/ament_prefix_path.dsv
+[59.727s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/environment/path.sh
+[59.730s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/environment/path.dsv
+[59.730s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/local_setup.bash
+[59.731s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/local_setup.sh
+[59.731s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/local_setup.zsh
+[59.733s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/local_setup.dsv
+[59.734s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/package.dsv
+[59.735s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/ament_index/resource_index/packages/phantomx_pincher_commander_cpp
+[59.739s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/cmake/phantomx_pincher_commander_cppConfig.cmake
+[59.740s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/cmake/phantomx_pincher_commander_cppConfig-version.cmake
+[59.742s] -- Installing: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_commander_cpp/share/phantomx_pincher_commander_cpp/package.xml
+[59.749s] Invoked command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp' returned '0': AMENT_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp

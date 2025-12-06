@@ -11,6 +11,8 @@ setup.py
 pincher_control/LAB5_P1.py
 pincher_control/__init__.py
 pincher_control/control_servo.py
+pincher_control/follow_joint_trajectory_node.py
+pincher_control/template_control_servo.py
 pincher_control/terminal_control.py
 pincher_control/terminal_subscriber.py
 pincher_control/toolbox.py

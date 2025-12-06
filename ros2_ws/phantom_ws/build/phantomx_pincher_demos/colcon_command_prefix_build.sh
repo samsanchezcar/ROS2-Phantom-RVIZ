@@ -1,4 +1,4 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/package.sh"
-. "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/package.sh"
-. "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/package.sh"
+. "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/package.sh"
+. "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/package.sh"
+. "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/package.sh"

@@ -1,0 +1,30 @@
+[5.929s] Invoking command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/pincher_control': PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/build install --record /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/install.log --single-version-externally-managed install_data
+[8.264s] running egg_info
+[8.268s] writing ../../build/pincher_control/pincher_control.egg-info/PKG-INFO
+[8.268s] writing dependency_links to ../../build/pincher_control/pincher_control.egg-info/dependency_links.txt
+[8.270s] writing entry points to ../../build/pincher_control/pincher_control.egg-info/entry_points.txt
+[8.272s] writing requirements to ../../build/pincher_control/pincher_control.egg-info/requires.txt
+[8.278s] writing top-level names to ../../build/pincher_control/pincher_control.egg-info/top_level.txt
+[8.289s] reading manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[8.294s] writing manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[8.296s] running build
+[8.299s] running build_py
+[8.302s] copying pincher_control/control_servo.py -> /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/build/lib/pincher_control
+[8.302s] running install
+[8.305s] running install_lib
+[8.306s] copying /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/build/lib/pincher_control/control_servo.py -> /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control
+[8.316s] byte-compiling /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control/control_servo.py to control_servo.cpython-310.pyc
+[8.356s] running install_data
+[8.357s] running install_egg_info
+[8.360s] removing '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control-0.0.0-py3.10.egg-info' (and everything under it)
+[8.362s] Copying ../../build/pincher_control/pincher_control.egg-info to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control-0.0.0-py3.10.egg-info
+[8.368s] running install_scripts
+[8.414s] Installing L5_P1 script to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/pincher_control
+[8.419s] Installing control_servo script to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/pincher_control
+[8.420s] Installing follow_joint_trajectory script to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/pincher_control
+[8.428s] Installing template_control_servo script to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/pincher_control
+[8.428s] Installing terminal_control script to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/pincher_control
+[8.428s] Installing terminal_sub script to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/pincher_control
+[8.430s] Installing toolbox script to /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/pincher_control
+[8.431s] writing list of installed files to '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/install.log'
+[8.481s] Invoked command in '/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/pincher_control' returned '0': PYTHONPATH=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/pincher_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/build install --record /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/pincher_control/install.log --single-version-externally-managed install_data
