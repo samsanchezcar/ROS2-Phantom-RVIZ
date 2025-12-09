@@ -1,9 +1,9 @@
 {
   "package_name": "phantomx_pincher_interfaces",
-  "output_dir": "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_py/phantomx_pincher_interfaces",
+  "output_dir": "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_py/phantomx_pincher_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_adapter/phantomx_pincher_interfaces:msg/PoseCommand.idl"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_adapter/phantomx_pincher_interfaces:msg/PoseCommand.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_adapter/phantomx_pincher_interfaces/msg/PoseCommand.idl"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_adapter/phantomx_pincher_interfaces/msg/PoseCommand.idl"
   ]
 }

@@ -1,5 +1,5 @@
 CMakeFiles/commander.dir/src/commander_template.cpp.o: \
- /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp \
+ /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -633,12 +633,12 @@ CMakeFiles/commander.dir/src/commander_template.cpp.o: \
  /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/multi_array_layout__traits.hpp \
  /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/multi_array_dimension__traits.hpp \
  /opt/ros/humble/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__type_support.hpp \
- /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/pose_command.hpp \
- /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__struct.hpp \
- /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__builder.hpp \
- /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__traits.hpp \
- /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__type_support.hpp \
- /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/pose_command.hpp \
+ /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__struct.hpp \
+ /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__builder.hpp \
+ /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__traits.hpp \
+ /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/detail/pose_command__type_support.hpp \
+ /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/include/phantomx_pincher_interfaces/phantomx_pincher_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
  /opt/ros/humble/include/moveit/macros/class_forward.h \
  /opt/ros/humble/include/moveit/macros/declare_ptr.h \

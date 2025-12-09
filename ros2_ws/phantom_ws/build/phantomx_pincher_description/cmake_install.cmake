@@ -1,8 +1,8 @@
-# Install script for directory: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description
+# Install script for directory: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_description")
+  set(CMAKE_INSTALL_PREFIX "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,41 +44,41 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/phantomx_pincher_description" TYPE PROGRAM FILES
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/scripts/xacro2sdf_direct.bash"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/scripts/xacro2sdf.bash"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/scripts/xacro2urdf.bash"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/scripts/xacro2sdf_direct.bash"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/scripts/xacro2sdf.bash"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/scripts/xacro2urdf.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE DIRECTORY FILES
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/config"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/launch"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/phantomx_pincher"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/phantomx_pincher/meshes"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/rviz"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/urdf"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/config"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/launch"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/phantomx_pincher"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/phantomx_pincher/meshes"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/rviz"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/urdf"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE DIRECTORY FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE DIRECTORY FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/meshes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/phantomx_pincher_description.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/phantomx_pincher_description.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/phantomx_pincher_description.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/phantomx_pincher_description.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,7 +86,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,42 +94,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/environment" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_index/share/ament_index/resource_index/packages/phantomx_pincher_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_index/share/ament_index/resource_index/packages/phantomx_pincher_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description/cmake" TYPE FILE FILES
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_core/phantomx_pincher_descriptionConfig.cmake"
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/ament_cmake_core/phantomx_pincher_descriptionConfig-version.cmake"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_core/phantomx_pincher_descriptionConfig.cmake"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/ament_cmake_core/phantomx_pincher_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_pincher_description" TYPE FILE FILES "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -140,5 +140,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

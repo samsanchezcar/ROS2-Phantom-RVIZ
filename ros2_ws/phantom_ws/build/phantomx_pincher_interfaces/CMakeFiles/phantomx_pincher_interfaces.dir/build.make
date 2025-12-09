@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces
+CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces
+CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces
 
 # Utility rule file for phantomx_pincher_interfaces.
 
@@ -66,7 +66,7 @@ include CMakeFiles/phantomx_pincher_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/phantomx_pincher_interfaces.dir/progress.make
 
-CMakeFiles/phantomx_pincher_interfaces: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces/msg/PoseCommand.msg
+CMakeFiles/phantomx_pincher_interfaces: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces/msg/PoseCommand.msg
 
 phantomx_pincher_interfaces: CMakeFiles/phantomx_pincher_interfaces
 phantomx_pincher_interfaces: CMakeFiles/phantomx_pincher_interfaces.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/phantomx_pincher_interfaces.dir/clean:
 .PHONY : CMakeFiles/phantomx_pincher_interfaces.dir/clean
 
 CMakeFiles/phantomx_pincher_interfaces.dir/depend:
-	cd /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles/phantomx_pincher_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles/phantomx_pincher_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/phantomx_pincher_interfaces.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces
+CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces
+CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces
 
 # Utility rule file for ament_cmake_python_copy_phantomx_pincher_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/compi
 include CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces:
-	/usr/bin/cmake -E copy_directory /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_py/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/ament_cmake_python/phantomx_pincher_interfaces/phantomx_pincher_interfaces
+	/usr/bin/cmake -E copy_directory /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_py/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/ament_cmake_python/phantomx_pincher_interfaces/phantomx_pincher_interfaces
 
 ament_cmake_python_copy_phantomx_pincher_interfaces: CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces
 ament_cmake_python_copy_phantomx_pincher_interfaces: CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/depend:
-	cd /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_phantomx_pincher_interfaces.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces
+CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces
+CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/depend.make
@@ -83,8 +83,8 @@ rosidl_generator_c/phantomx_pincher_interfaces/msg/pose_command.h: /opt/ros/humb
 rosidl_generator_c/phantomx_pincher_interfaces/msg/pose_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/phantomx_pincher_interfaces/msg/pose_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/phantomx_pincher_interfaces/msg/pose_command.h: rosidl_adapter/phantomx_pincher_interfaces/msg/PoseCommand.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.h: rosidl_generator_c/phantomx_pincher_interfaces/msg/pose_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.h
@@ -101,16 +101,16 @@ rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__function
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o: CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o: rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o: CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o -MF CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o.d -o CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o -c /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o -MF CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o.d -o CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.o -c /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c
 
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c > CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c > CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.i
 
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c -o CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c -o CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__functions.c.s
 
 # Object files for target phantomx_pincher_interfaces__rosidl_generator_c
 phantomx_pincher_interfaces__rosidl_generator_c_OBJECTS = \
@@ -124,7 +124,7 @@ libphantomx_pincher_interfaces__rosidl_generator_c.so: CMakeFiles/phantomx_pinch
 libphantomx_pincher_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libphantomx_pincher_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libphantomx_pincher_interfaces__rosidl_generator_c.so: CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libphantomx_pincher_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libphantomx_pincher_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +140,6 @@ CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/depend: rosidl_ge
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__struct.h
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/phantomx_pincher_interfaces/msg/detail/pose_command__type_support.h
 CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/phantomx_pincher_interfaces/msg/pose_command.h
-	cd /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/phantomx_pincher_interfaces__rosidl_generator_c.dir/depend
 

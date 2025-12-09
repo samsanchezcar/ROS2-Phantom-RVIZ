@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp
+CMAKE_SOURCE_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp
+CMAKE_BINARY_DIR = /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_commander_cpp
 
 # Include any dependencies generated for this target.
 include CMakeFiles/commander.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/commander.dir/progress.make
 include CMakeFiles/commander.dir/flags.make
 
 CMakeFiles/commander.dir/src/commander_template.cpp.o: CMakeFiles/commander.dir/flags.make
-CMakeFiles/commander.dir/src/commander_template.cpp.o: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp
+CMakeFiles/commander.dir/src/commander_template.cpp.o: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp
 CMakeFiles/commander.dir/src/commander_template.cpp.o: CMakeFiles/commander.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/commander.dir/src/commander_template.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/commander.dir/src/commander_template.cpp.o -MF CMakeFiles/commander.dir/src/commander_template.cpp.o.d -o CMakeFiles/commander.dir/src/commander_template.cpp.o -c /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/commander.dir/src/commander_template.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/commander.dir/src/commander_template.cpp.o -MF CMakeFiles/commander.dir/src/commander_template.cpp.o.d -o CMakeFiles/commander.dir/src/commander_template.cpp.o -c /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp
 
 CMakeFiles/commander.dir/src/commander_template.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commander.dir/src/commander_template.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp > CMakeFiles/commander.dir/src/commander_template.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp > CMakeFiles/commander.dir/src/commander_template.cpp.i
 
 CMakeFiles/commander.dir/src/commander_template.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commander.dir/src/commander_template.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp -o CMakeFiles/commander.dir/src/commander_template.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp/src/commander_template.cpp -o CMakeFiles/commander.dir/src/commander_template.cpp.s
 
 # Object files for target commander
 commander_OBJECTS = \
@@ -99,12 +99,12 @@ commander: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_fastrtp
 commander: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
 commander: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_cpp.so
 commander: /opt/ros/humble/lib/libexample_interfaces__rosidl_generator_py.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_introspection_c.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_fastrtps_cpp.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_introspection_cpp.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_cpp.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_generator_py.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_fastrtps_c.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_introspection_c.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_fastrtps_cpp.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_introspection_cpp.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_cpp.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_generator_py.so
 commander: /opt/ros/humble/lib/libmoveit_common_planning_interface_objects.so.2.5.9
 commander: /opt/ros/humble/lib/libmoveit_planning_scene_interface.so.2.5.9
 commander: /opt/ros/humble/lib/libmoveit_move_group_default_capabilities.so.2.5.9
@@ -359,15 +359,15 @@ commander: /opt/ros/humble/lib/librmw.so
 commander: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 commander: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 commander: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_c.so
-commander: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_generator_c.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_typesupport_c.so
+commander: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces/lib/libphantomx_pincher_interfaces__rosidl_generator_c.so
 commander: /opt/ros/humble/lib/librosidl_typesupport_c.so
 commander: /opt/ros/humble/lib/librcpputils.so
 commander: /opt/ros/humble/lib/librosidl_runtime_c.so
 commander: /opt/ros/humble/lib/librcutils.so
 commander: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 commander: CMakeFiles/commander.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable commander"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable commander"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/commander.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -379,6 +379,6 @@ CMakeFiles/commander.dir/clean:
 .PHONY : CMakeFiles/commander.dir/clean
 
 CMakeFiles/commander.dir/depend:
-	cd /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/commander.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_commander_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_commander_cpp /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_commander_cpp/CMakeFiles/commander.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/commander.dir/depend
 

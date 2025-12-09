@@ -1,8 +1,8 @@
-# Install script for directory: /home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/build/phantomx_pincher_interfaces/phantomx_pincher_interfaces__py
+# Install script for directory: /home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/build/phantomx_pincher_interfaces/phantomx_pincher_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/install/phantomx_pincher_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/install/phantomx_pincher_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

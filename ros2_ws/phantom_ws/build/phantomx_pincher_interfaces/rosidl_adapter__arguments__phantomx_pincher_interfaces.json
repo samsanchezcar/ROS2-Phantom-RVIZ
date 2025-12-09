@@ -1,6 +1,6 @@
 {
   "package_name": "phantomx_pincher_interfaces",
   "non_idl_tuples": [
-    "/home/samsanchez/Documents/Robotics/KIT_Phantom_X_Pincher_ROS2/phantom_ws/src/phantomx_pincher_interfaces:msg/PoseCommand.msg"
+    "/home/samsanchez/Documents/Robotics/Pincher/ros2_ws/phantom_ws/src/phantomx_pincher_interfaces:msg/PoseCommand.msg"
   ]
 }
