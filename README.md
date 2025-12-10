@@ -6,7 +6,7 @@
 
 # 🤖 PhantomX Pincher X100 — ROS 2 Humble · RViz
 
-> **Resumen:** Práctica de laboratorio del curso *Robótica * orientada a la creación de Joint Controllers con ROS 2 para manipular servomotores Dynamixel AX-12 del robot **PhantomX Pincher X100**, incluyendo el desarrollo de una interfaz gráfica completa para control manual, movimiento por coordenadas cartesianas y visualización en RViz.
+> **Resumen:** Práctica de laboratorio del curso *Robótica* orientada a la creación de Joint Controllers con ROS 2 para manipular servomotores Dynamixel AX-12 del robot **PhantomX Pincher X100**, incluyendo el desarrollo de una interfaz gráfica completa para control manual, movimiento por coordenadas cartesianas y visualización en RViz.
 
 ---
 
