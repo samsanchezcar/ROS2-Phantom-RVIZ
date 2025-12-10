@@ -642,7 +642,7 @@ flowchart TD
 
 2. **Arquitectura Pub/Sub:** El patrón publicador-suscriptor de ROS 2 facilitó la separación de responsabilidades entre el control de motores (`PincherController`), la visualización (`toolbox.py`, RViz) y la interfaz de usuario (GUI), permitiendo que cada componente opere de forma independiente.
 
-3. **Cinemática Inversa:** La implementación del algoritmo de Levenberg-Marquardt para la cinemática inversa, junto con múltiples semillas de inicialización, permitió alcanzar posiciones cartesianas con errores menores a 3 mm en la mayoría de los casos dentro del espacio de trabajo alcanzable.
+3. **Cinemática Inversa:** La implementación del algoritmo para la cinemática inversa,  permitió alcanzar posiciones cartesianas dentro del espacio de trabajo alcanzable.
 
 4. **Interfaz de Usuario:** El desarrollo de una GUI moderna con PyQt5 demostró que es posible crear herramientas de control intuitivas que abstraen la complejidad del sistema ROS 2 subyacente, facilitando la operación por usuarios no expertos.
 
