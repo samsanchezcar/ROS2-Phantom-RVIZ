@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=PhantomX%20Pincher%20X100%20%E2%80%A2%20ROS%202&fontSize=32&desc=Pr%C3%A1ctica%20de%20Laboratorio%20%E2%80%A2%20Rob%C3%B3tica%20Industrial&descSize=14&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=PhantomX%20Pincher%20X100%20%E2%80%A2%20ROS%202&fontSize=32&desc=Pr%C3%A1ctica%20de%20Laboratorio%20%E2%80%A2%20Rob%C3%B3tica%20&descSize=14&animation=fadeIn" width="100%" />
 </div>
 
 ---
