@@ -10,45 +10,204 @@
 
 ---
 
-## 🧾 Autores
+## 🎥 Video Demostrativo
 
-- **Samuel David Sánchez Cárdenas** — Desarrollo, simulación y documentación.  
-  [![GitHub samsanchezcar](https://img.shields.io/badge/GitHub-%40samsanchezcar-181717?style=for-the-badge&logo=github)](https://github.com/samsanchezcar)
-- **Santiago Ávila Corredor** — Diseño de trayectorias, pruebas y documentación.  
-  [![GitHub Santiago Ávila](https://img.shields.io/badge/GitHub-Search--Santiago%20%C3%81vila-181717?style=for-the-badge&logo=github)](https://github.com/search?q=Santiago+Avila)
+<div align="center">
+
+[![Implementación Completa - PhantomX Pincher X100](https://img.youtube.com/vi/obf1X0HfMZE/maxresdefault.jpg)](https://youtu.be/obf1X0HfMZE)
+
+**Video completo mostrando todas las funcionalidades implementadas:**
+- Movimiento Home y posición objetivo
+- Control por terminal (Publisher)
+- Suscriptor de estados articulares
+- Visualización con Robotics Toolbox
+- Interfaz gráfica completa (GUI)
+
+</div>
 
 ---
 
-## 📂 Estructura del repositorio
+## 🧾 Autores
+
+- **Samuel David Sánchez Cárdenas**
+  [![GitHub samsanchezcar](https://img.shields.io/badge/GitHub-%40samsanchezcar-181717?style=for-the-badge&logo=github)](https://github.com/samsanchezcar)
+- **Santiago Ávila Corredor**
+  [![GitHub Santiago Ávila](https://img.shields.io/badge/GitHub-Santiago%20%C3%81vila-181717?style=for-the-badge&logo=github)](https://github.com/search?q=Santiago+Avila)
+
+---
+
+## 📥 Descargar e Instalar
+
+### Clonar el Repositorio
+
+```bash
+# Opción 1: Clonar completo
+git clone https://github.com/samsanchezcar/phantomx-pincher-ros2.git
+cd phantomx-pincher-ros2
+
+# Opción 2: Clonar solo el workspace de ROS 2
+cd ~/ros2_ws/src
+git clone https://github.com/samsanchezcar/phantomx-pincher-ros2.git phantom_ws
+```
+
+### Requisitos Previos
+
+```bash
+# ROS 2 Humble
+sudo apt install ros-humble-desktop-full
+
+# Dependencias Dynamixel
+sudo apt install ros-humble-dynamixel-sdk
+
+# Python dependencies
+pip3 install pyqt5 roboticstoolbox-python spatialmath-python numpy
+```
+
+### Compilar el Workspace
+
+```bash
+cd ~/ros2_ws/phantom_ws
+colcon build --symlink-install
+source install/setup.bash
+```
+
+---
+
+## 📂 Estructura del Repositorio
 
 ```text
-ros2_ws/
-    └── phantom_ws/
-        ├── build/
-        ├── install/
-        ├── log/
-        └── src/
-            ├── phantomx_pincher_bringup/
-            ├── phantomx_pincher_commander_cpp/
-            ├── phantomx_pincher_demos/
-            ├── phantomx_pincher_description/
-            │   └── urdf/
-            │       └── phantomx_pincher.urdf
-            ├── phantomx_pincher_interfaces/
-            ├── phantomx_pincher_moveit_config/
-            └── pincher_control/
-                └── pincher_control/
-                    ├── __init__.py
-                    ├── control_servo.py
-                    ├── LAB5_P1.py
-                    ├── terminal_control.py
-                    ├── terminal_subscriber.py
-                    └── toolbox.py
-sources/
-    ├── DH.png
-    └── Matlab_vis.gif
-DH.mlx
+phantomx-pincher-ros2/
+├── DH.mlx                                    # Análisis cinemático en MATLAB
+├── README.md                                 # Este archivo
+├── ros2_ws/
+│   └── phantom_ws/                           # Workspace principal de ROS 2
+│       ├── src/                              # Paquetes fuente
+│       │   ├── phantomx_pincher_description/ # 🎨 URDF, meshes y visualización
+│       │   │   ├── urdf/
+│       │   │   │   ├── phantomx_pincher.urdf           # Modelo unificado del robot
+│       │   │   │   ├── phantomx_pincher.urdf.xacro     # Modelo parametrizable (macro)
+│       │   │   │   ├── phantomx_pincher_arm.xacro      # Definición del brazo
+│       │   │   │   ├── phantomx_pincher_hardware.xacro # Hardware interfaces
+│       │   │   │   ├── phantomx_pincher_inertial.xacro # Parámetros inerciales
+│       │   │   │   └── phantomx_pincher.ros2_control   # Control config
+│       │   │   ├── meshes/                  # Archivos STL/DAE
+│       │   │   │   ├── visual/              # Meshes para visualización
+│       │   │   │   │   ├── ax12.dae         # Servo Dynamixel AX-12
+│       │   │   │   │   ├── f2.dae           # Eslabón 2
+│       │   │   │   │   ├── f3.dae           # Eslabón 3
+│       │   │   │   │   ├── f4.dae           # Eslabón 4
+│       │   │   │   │   └── gripper_base.dae # Base del gripper
+│       │   │   │   └── collision/           # Meshes para colisiones
+│       │   │   ├── launch/
+│       │   │   │   ├── display.launch.py    # Lanzar RViz con el modelo
+│       │   │   │   └── view.launch.py       # Vista simple del robot
+│       │   │   └── rviz/
+│       │   │       └── view.rviz            # Configuración RViz
+│       │   │
+│       │   ├── phantomx_pincher_bringup/    # 🚀 Launch files principales
+│       │   │   ├── launch/
+│       │   │   │   └── phantomx_pincher.launch.py  # Iniciar hardware real
+│       │   │   └── config/
+│       │   │       ├── controllers_position.yaml   # Control por posición
+│       │   │       └── controllers_effort.yaml     # Control por esfuerzo
+│       │   │
+│       │   ├── phantomx_pincher_moveit_config/ # 🎯 Configuración MoveIt2
+│       │   │   ├── config/
+│       │   │   │   ├── kinematics.yaml      # Solver cinemático
+│       │   │   │   ├── joint_limits.yaml    # Límites articulares
+│       │   │   │   └── ompl_planning.yaml   # Planificador de trayectorias
+│       │   │   ├── srdf/
+│       │   │   │   └── phantomx_pincher.srdf # Descripción semántica
+│       │   │   └── launch/
+│       │   │       └── move_group.launch.py  # Nodo de planificación
+│       │   │
+│       │   ├── phantomx_pincher_interfaces/ # 📡 Mensajes y servicios custom
+│       │   │   └── msg/
+│       │   │       └── PoseCommand.msg      # Mensaje para comandos de pose
+│       │   │
+│       │   ├── phantomx_pincher_demos/      # 📚 Ejemplos de uso
+│       │   │   └── examples/
+│       │   │       ├── ex_joint_goal.py     # Movimiento a ángulos
+│       │   │       ├── ex_pose_goal.py      # Movimiento a pose XYZ
+│       │   │       └── ex_gripper.py        # Control del gripper
+│       │   │
+│       │   └── pincher_control/             # 🎛️ Controladores Python
+│       │       └── pincher_control/
+│       │           ├── control_servo.py          # GUI COMPLETA (principal)
+│       │           ├── LAB5_P1.py                # Secuencia Home → Objetivo
+│       │           ├── terminal_control.py       # Publisher por terminal
+│       │           ├── terminal_subscriber.py    # Suscriptor /joint_states
+│       │           └── toolbox.py                # Visualización Robotics Toolbox
+│       │
+│       ├── build/                           # Archivos compilados
+│       ├── install/                         # Binarios instalados
+│       └── log/                             # Logs de compilación
+│
+└── sources/                                 # Recursos multimedia
+    ├── DH.png                               # Diagrama Denavit-Hartenberg
+    ├── Matlab_vis.gif                       # Animación MATLAB
+    ├── gui_main.png                         # Captura GUI: Panel principal
+    ├── gui_manual_control.png               # Captura GUI: Control manual
+    ├── gui_fix_value.png                    # Captura GUI: Valores fijos
+    ├── gui_pose.png                         # Captura GUI: Ángulos predefinidos
+    ├── gui_xyz_control.png                  # Captura GUI: Control XYZ
+    ├── gui_visualization.png                # Captura GUI: Visualización
+    └── gui_group.png                        # Captura GUI: Vista grupal
 ```
+
+### 📘 Glosario de Archivos Clave
+
+#### **URDF (Unified Robot Description Format)**
+Formato XML para describir robots en ROS. Define:
+- **Links**: Eslabones físicos del robot (geometría, inercia, colisión)
+- **Joints**: Articulaciones que conectan los links (tipo, límites, ejes)
+- **Sensors**: Cámaras, LIDAR, IMU, etc.
+
+**Ejemplo**: `phantomx_pincher.urdf`
+
+#### **XACRO (XML Macros)**
+Extensión de URDF que permite:
+- **Macros reutilizables**: Definir componentes una vez y usarlos múltiples veces
+- **Parámetros**: Variables para dimensiones, colores, etc.
+- **Includes**: Separar el robot en módulos (arm, gripper, base)
+
+**Ejemplo**: `phantomx_pincher.urdf.xacro` → se compila a URDF
+
+```xml
+<!-- Ejemplo de macro XACRO -->
+<xacro:macro name="dynamixel_ax12" params="name">
+  <link name="${name}">
+    <visual>
+      <geometry>
+        <mesh filename="package://phantomx_pincher_description/meshes/visual/ax12.dae"/>
+      </geometry>
+    </visual>
+  </link>
+</xacro:macro>
+```
+
+#### **Launch Files (.launch.py)**
+Scripts Python que inician múltiples nodos ROS 2 con configuraciones específicas.
+
+**Propósito**:
+- Lanzar RViz con configuración específica
+- Iniciar controladores de hardware
+- Cargar parámetros desde YAML
+- Configurar transformaciones (TF)
+
+**Ejemplo**: `display.launch.py` inicia RViz + Robot State Publisher
+
+#### **Meshes (STL/DAE)**
+Modelos 3D del robot:
+- **STL**: Para colisiones (simplificado)
+- **DAE (COLLADA)**: Para visualización (detallado, con colores)
+
+#### **RViz Configs (.rviz)**
+Configuraciones guardadas de RViz:
+- Paneles activos
+- Displays habilitados (TF, RobotModel, LaserScan)
+- Ángulos de cámara
+- Temas de color
 
 ---
 
@@ -141,6 +300,15 @@ El nodo `SecuenciaLab5` utiliza el controlador de motores `PincherController` pa
 
 **Ubicación del archivo:** `ros2_ws/phantom_ws/src/pincher_control/pincher_control/LAB5_P1.py`
 
+### Ejecución
+
+```bash
+# Terminal 1: Lanzar nodo de control
+ros2 run pincher_control L5_P1
+
+# El robot se moverá automáticamente a Home y luego a la posición objetivo
+```
+
 ### Diagrama de Flujo
 
 ```mermaid
@@ -195,17 +363,6 @@ flowchart TD
     F1 --> F2[END]
 ```
 
-### Video de Implementación
-
-<div align="center">
-
-<!-- TODO: Reemplazar VIDEO_ID por el ID real de YouTube -->
-[![Movimiento Home a Objetivo](https://img.youtube.com/vi/VIDEO_ID_HOME/0.jpg)](https://youtu.be/VIDEO_ID_HOME)
-
-**Demostración del movimiento secuencial desde Home hasta la posición objetivo.**
-
-</div>
-
 ---
 
 ## ⌨️ Control por Terminal - Publisher
@@ -230,6 +387,19 @@ Este nodo ofrece dos modos de operación:
 | c3 | -35° | 35° | -30° | 30° | 0° | Lateral |
 | c4 | 85° | -20° | 55° | 25° | 0° | Elevada |
 | c5 | 80° | -35° | 55° | -45° | 0° | Extendida |
+
+### Ejecución
+
+```bash
+# Lanzar controlador por terminal
+ros2 run pincher_control terminal_control
+
+# Comandos disponibles:
+# <motor_id> <ángulo>  → Ejemplo: 1 45
+# c1, c2, c3, c4, c5   → Configuraciones predefinidas
+# help                 → Mostrar ayuda
+# quit                 → Salir
+```
 
 ### Diagrama de Flujo
 
@@ -297,17 +467,6 @@ flowchart TD
     F2 --> F3[END]
 ```
 
-### Video de Implementación
-
-<div align="center">
-
-<!-- TODO: Reemplazar VIDEO_ID por el ID real de YouTube -->
-[![Control por Terminal](https://img.youtube.com/vi/VIDEO_ID_TERMINAL/0.jpg)](https://youtu.be/VIDEO_ID_TERMINAL)
-
-**Demostración del control por terminal con comandos individuales y configuraciones predefinidas.**
-
-</div>
-
 ---
 
 ## 👁️ Suscriptor de Estados Articulares
@@ -319,6 +478,24 @@ El script `terminal_subscriber.py` implementa un nodo suscriptor que muestra en 
 Este nodo se suscribe al tópico `/joint_states` y convierte las posiciones de radianes a grados para una visualización más intuitiva.
 
 **Ubicación del archivo:** `ros2_ws/phantom_ws/src/pincher_control/pincher_control/terminal_subscriber.py`
+
+### Ejecución
+
+```bash
+# Terminal 1: Lanzar cualquier controlador
+ros2 run pincher_control terminal_control
+
+# Terminal 2: Monitorear estados
+ros2 run pincher_control terminal_sub
+
+# Salida ejemplo:
+# Estados actuales:
+#   waist: 45.2°
+#   shoulder: -12.8°
+#   elbow: 30.1°
+#   wrist: 15.6°
+#   gripper: 0.0°
+```
 
 ### Diagrama de Flujo
 
@@ -360,16 +537,6 @@ flowchart TD
     C1 -->|No| C0
 ```
 
-### Video de Implementación
-
-<div align="center">
-
-<!-- TODO: Reemplazar VIDEO_ID por el ID real de YouTube -->
-[![Suscriptor de Estados](https://img.youtube.com/vi/VIDEO_ID_SUB/0.jpg)](https://youtu.be/VIDEO_ID_SUB)
-
-**Visualización en tiempo real de los estados articulares mediante el suscriptor.**
-
-</div>
 
 ---
 
@@ -382,6 +549,16 @@ El script `toolbox.py` proporciona una visualización 3D en tiempo real del robo
 Este nodo combina ROS 2 con matplotlib para mostrar el modelo cinemático del robot actualizándose en tiempo real según los datos del tópico `/joint_states`.
 
 **Ubicación del archivo:** `ros2_ws/phantom_ws/src/pincher_control/pincher_control/toolbox.py`
+
+### Ejecución
+
+```bash
+# Lanzar visualización Toolbox
+ros2 run pincher_control toolbox
+
+# Se abrirá una ventana matplotlib mostrando el robot en 3D
+# El modelo se actualiza automáticamente conforme el robot se mueve
+```
 
 ### Diagrama de Flujo
 
@@ -449,16 +626,6 @@ flowchart TD
     E2 --> E3[END]
 ```
 
-### Video de Implementación
-
-<div align="center">
-
-<!-- TODO: Reemplazar VIDEO_ID por el ID real de YouTube -->
-[![Visualización Toolbox](https://img.youtube.com/vi/VIDEO_ID_TOOLBOX/0.jpg)](https://youtu.be/VIDEO_ID_TOOLBOX)
-
-**Visualización 3D en tiempo real con Robotics Toolbox de Peter Corke.**
-
-</div>
 
 ---
 
@@ -468,27 +635,103 @@ El script `control_servo.py` implementa una interfaz gráfica completa utilizand
 
 ### Descripción Funcional
 
-La GUI ofrece múltiples páginas de control:
+La GUI ofrece **7 páginas especializadas** de control:
 
-1. **Panel Principal:** Vista general del estado del robot y control de velocidad.
-2. **Control Manual:** Sliders para cada articulación.
-3. **Valores Fijos:** Entrada numérica directa para cada motor.
-4. **Ángulos Predefinidos:** 5 poses preconfiguradas con un clic.
-5. **Control XYZ:** Movimiento en coordenadas cartesianas con cinemática inversa.
-6. **Visualización:** Lanzadores para RViz y Robotics Toolbox.
-7. **Información:** Datos del proyecto y autores.
+<div align="center">
+  <img src="./sources/gui_main.png" alt="Panel Principal" width="800" />
+  <p><em><strong>1. Panel Principal:</strong> Vista general del estado del robot y control de velocidad.</em></p>
+</div>
+
+<div align="center">
+  <img src="./sources/gui_manual_control.png" alt="Control Manual" width="800" />
+  <p><em><strong>2. Control Manual:</strong> Sliders para control continuo de cada articulación.</em></p>
+</div>
+
+<div align="center">
+  <img src="./sources/gui_fix_value.png" alt="Valores Fijos" width="800" />
+  <p><em><strong>3. Valores Fijos:</strong> Entrada numérica directa para cada motor (0-1023).</em></p>
+</div>
+
+<div align="center">
+  <img src="./sources/gui_pose.png" alt="Ángulos Predefinidos" width="800" />
+  <p><em><strong>4. Ángulos Predefinidos:</strong> 5 poses preconfiguradas con un clic.</em></p>
+</div>
+
+<div align="center">
+  <img src="./sources/gui_xyz_control.png" alt="Control XYZ" width="800" />
+  <p><em><strong>5. Control XYZ:</strong> Movimiento en coordenadas cartesianas con cinemática inversa.</em></p>
+</div>
+
+<div align="center">
+  <img src="./sources/gui_visualization.png" alt="Visualización" width="800" />
+  <p><em><strong>6. Visualización:</strong> Lanzadores para RViz y Robotics Toolbox.</em></p>
+</div>
+
+<div align="center">
+  <img src="./sources/gui_group.png" alt="Vista Grupal" width="800" />
+  <p><em><strong>Vista completa de la interfaz moderna con menú lateral.</strong></em></p>
+</div>
 
 **Ubicación del archivo:** `ros2_ws/phantom_ws/src/pincher_control/pincher_control/control_servo.py`
 
-### Captura de Pantalla de la GUI
+### Características Principales
 
-<div align="center">
+#### **Panel Principal (Dashboard)**
+- ✅ Posición cartesiana actual (X, Y, Z)
+- ✅ Estado de motores en tiempo real
+- ✅ Control de velocidad global
+- ✅ Botón HOME rápido
+- ✅ Parada de emergencia
 
-<!-- TODO: Agregar captura de pantalla de la GUI -->
-<img src="./sources/gui_screenshot.png" alt="Interfaz Gráfica" width="800" />
-<p><em>Interfaz gráfica moderna para el control del PhantomX Pincher X100.</em></p>
+#### **Control Manual**
+- ✅ Sliders independientes para cada motor
+- ✅ Valores en tiempo real (0-1023 o 0-4095)
+- ✅ Control suave y continuo
 
-</div>
+#### **Valores Fijos**
+- ✅ Entrada numérica precisa
+- ✅ Mover motores individuales
+- ✅ Comando global "Mover Todos"
+
+#### **Ángulos Predefinidos**
+- ✅ 5 poses pre-programadas
+- ✅ Descripción de cada posición
+- ✅ Ejecución con un solo clic
+
+#### **Control XYZ**
+- ✅ Cinemática inversa con **ikine_LM** (Levenberg-Marquardt)
+- ✅ Validación de alcance en tiempo real
+- ✅ 4 posiciones rápidas predefinidas
+- ✅ Feedback visual del estado de IK
+
+#### **Visualización**
+- ✅ Lanzar RViz desde la GUI
+- ✅ Lanzar Robotics Toolbox desde la GUI
+- ✅ Control de procesos (iniciar/detener)
+
+#### **Información**
+- ✅ Datos del proyecto
+- ✅ Información de autores
+- ✅ Enlaces a GitHub
+
+### Ejecución
+
+```bash
+# Lanzar GUI completa
+ros2 run pincher_control control_servo
+
+# La interfaz se abrirá automáticamente
+# Todas las funciones están integradas en un solo programa
+```
+
+### Tema Visual Moderno
+
+La GUI utiliza un diseño **oscuro profesional** con:
+- 🎨 Gradientes cyan-azul (#00d9ff)
+- 🎨 Fondos oscuros (#1e1e2e)
+- 🎨 Cards con hover effects
+- 🎨 Tipografía Segoe UI / Ubuntu
+- 🎨 Íconos Unicode integrados
 
 ### Diagrama de Flujo - Sistema Principal
 
@@ -599,41 +842,6 @@ flowchart TD
     D3 -->|Completado| D8 --> END3[FIN - Éxito]
 ```
 
-### Diagrama de Flujo - Publicación de Joint States
-
-```mermaid
-flowchart TD
-    subgraph TIMER["Timer 10Hz"]
-        A0[Timer dispara publish_joint_states]
-    end
-
-    subgraph CREATE["Crear Mensaje"]
-        B0[Crear JointState]
-        B1[Crear Header con timestamp]
-        B2[Asignar frame_id = base_link]
-        B3[Asignar nombres de articulaciones]
-        B4[Asignar posiciones actuales]
-    end
-
-    subgraph PUBLISH["Publicar"]
-        C0[joint_state_pub.publish]
-        C1[Mensaje disponible en /joint_states]
-    end
-
-    A0 --> B0 --> B1 --> B2 --> B3 --> B4 --> C0 --> C1
-```
-
-### Video de Implementación
-
-<div align="center">
-
-<!-- TODO: Reemplazar VIDEO_ID por el ID real de YouTube -->
-[![GUI Control Completo](https://img.youtube.com/vi/VIDEO_ID_GUI/0.jpg)](https://youtu.be/VIDEO_ID_GUI)
-
-**Demostración completa de la interfaz gráfica con todas sus funcionalidades.**
-
-</div>
-
 ---
 
 ## 🎓 Conclusiones
@@ -642,7 +850,7 @@ flowchart TD
 
 2. **Arquitectura Pub/Sub:** El patrón publicador-suscriptor de ROS 2 facilitó la separación de responsabilidades entre el control de motores (`PincherController`), la visualización (`toolbox.py`, RViz) y la interfaz de usuario (GUI), permitiendo que cada componente opere de forma independiente.
 
-3. **Cinemática Inversa:** La implementación del algoritmo para la cinemática inversa,  permitió alcanzar posiciones cartesianas dentro del espacio de trabajo alcanzable.
+3. **Cinemática Inversa:** La implementación del algoritmo `ikine_LM` (Levenberg-Marquardt) permitió alcanzar posiciones cartesianas dentro del espacio de trabajo alcanzable con alta precisión y robustez ante singularidades.
 
 4. **Interfaz de Usuario:** El desarrollo de una GUI moderna con PyQt5 demostró que es posible crear herramientas de control intuitivas que abstraen la complejidad del sistema ROS 2 subyacente, facilitando la operación por usuarios no expertos.
 
@@ -652,21 +860,81 @@ flowchart TD
 
 7. **Parámetros DH:** La correcta identificación de los parámetros Denavit-Hartenberg y su implementación tanto en MATLAB como en Python fue fundamental para la coherencia entre el modelo simulado y el robot físico.
 
+8. **URDF y XACRO:** El uso de archivos XACRO parametrizables permitió mantener un modelo del robot modular y fácil de actualizar, mientras que los meshes en formato DAE mejoraron significativamente la calidad visual en RViz.
+
 ---
 
 ## 📚 Referencias
 
 1. **Laboratorio No. 05 - Pincher Phantom X100 - ROS Humble - RViz.** Universidad Nacional de Colombia, 2025.
 
-2. ROBOTIS. *DYNAMIXEL SDK Manual.* Documentación oficial para comunicación con servomotores Dynamixel.
+2. ROBOTIS. *DYNAMIXEL SDK Manual.* Documentación oficial para comunicación con servomotores Dynamixel.  
+   https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/
 
-3. Corke, P. *Robotics, Vision and Control: Fundamental Algorithms in MATLAB.* Springer, 2017.
+3. ROBOTIS. *DYNAMIXEL Workbench - ROS Tutorials.* Guías oficiales para integración con ROS.  
+   https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/#ros-tutorials
 
-4. Open Robotics. *ROS 2 Humble Documentation.* https://docs.ros.org/en/humble/
+4. Corke, P. *Robotics, Vision and Control: Fundamental Algorithms in MATLAB.* Springer, 2017.
 
-5. Trossen Robotics. *PhantomX Pincher Robot Arm Assembly Guide.*
+5. Corke, P. *Robotics Toolbox for Python.* GitHub Repository.  
+   https://github.com/petercorke/robotics-toolbox-python
 
-6. Qt Company. *PyQt5 Documentation.* https://www.riverbankcomputing.com/static/Docs/PyQt5/
+6. Open Robotics. *ROS 2 Humble Documentation.*  
+   https://docs.ros.org/en/humble/
+
+7. Open Robotics. *URDF - Unified Robot Description Format.*  
+   http://wiki.ros.org/urdf
+
+8. Trossen Robotics. *PhantomX Pincher Robot Arm Assembly Guide.*
+
+9. Qt Company. *PyQt5 Documentation.*  
+   https://www.riverbankcomputing.com/static/Docs/PyQt5/
+
+10. Craig, J.J. *Introduction to Robotics: Mechanics and Control.* Pearson, 3rd Edition, 2005.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+<div align="center">
+
+![ROS 2](https://img.shields.io/badge/ROS%202-Humble-blue?style=for-the-badge&logo=ros)
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![PyQt5](https://img.shields.io/badge/PyQt5-GUI-green?style=for-the-badge&logo=qt)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?style=for-the-badge&logo=ubuntu)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange?style=for-the-badge&logo=mathworks)
+
+</div>
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+---
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add: AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+---
+
+## 📧 Contacto
+
+**Samuel David Sánchez Cárdenas**  
+📧 Email: [samsanchezcar@gmail.com](samsanchezcar@gmail.com)
+🔗 GitHub: [@samsanchezcar](https://github.com/samsanchezcar)
+
+**Santiago Ávila Corredor**  
+📧 Email: savilac@unal.edu.co  
+🔗 GitHub: Buscar "Santiago Avila"
 
 ---
 
