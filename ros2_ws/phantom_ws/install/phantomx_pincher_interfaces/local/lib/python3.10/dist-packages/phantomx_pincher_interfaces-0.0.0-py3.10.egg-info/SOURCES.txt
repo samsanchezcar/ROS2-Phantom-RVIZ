@@ -4,3 +4,5 @@ phantomx_pincher_interfaces.egg-info/PKG-INFO
 phantomx_pincher_interfaces.egg-info/SOURCES.txt
 phantomx_pincher_interfaces.egg-info/dependency_links.txt
 phantomx_pincher_interfaces.egg-info/top_level.txt
+phantomx_pincher_interfaces/msg/__init__.py
+phantomx_pincher_interfaces/msg/_pose_command.py
