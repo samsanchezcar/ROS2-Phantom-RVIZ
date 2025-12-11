@@ -53,7 +53,7 @@ git clone https://github.com/samsanchezcar/phantomx-pincher-ros2.git phantom_ws
 ### Requisitos Previos
 
 ```bash
-# ROS 2 Humble
+# ROS 2 Humble THIS IS JUST AN EXMPLE, Not the complet library and dependences donwload
 sudo apt install ros-humble-desktop-full
 
 # Dependencias Dynamixel
